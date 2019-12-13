@@ -32,8 +32,8 @@
             Me.xrPictureBox1 = New DevExpress.XtraReports.UI.XRPictureBox()
             Me.xrRichText1 = New DevExpress.XtraReports.UI.XRRichText()
             Me.xrLabel2 = New DevExpress.XtraReports.UI.XRLabel()
-            DirectCast(Me.xrRichText1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.xrRichText1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' Detail
             ' 
@@ -79,7 +79,7 @@
             ' xrPictureBox1
             ' 
             Me.xrPictureBox1.Dpi = 100F
-            Me.xrPictureBox1.Image = (DirectCast(resources.GetObject("xrPictureBox1.Image"), System.Drawing.Image))
+            Me.xrPictureBox1.Image = (CType(resources.GetObject("xrPictureBox1.Image"), System.Drawing.Image))
             Me.xrPictureBox1.LocationFloat = New DevExpress.Utils.PointFloat(435.8334F, 10.00001F)
             Me.xrPictureBox1.Name = "xrPictureBox1"
             Me.xrPictureBox1.SizeF = New System.Drawing.SizeF(204.1666F, 138.9583F)
@@ -110,8 +110,8 @@
             Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportHeader})
             Me.ReportPrintOptions.DetailCountOnEmptyDataSource = 55
             Me.Version = "16.2"
-            DirectCast(Me.xrRichText1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.xrRichText1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
         End Sub
 
