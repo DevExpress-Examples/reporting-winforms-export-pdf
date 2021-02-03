@@ -1,13 +1,7 @@
-<!-- default file list -->
-*Files to look at*:
+﻿Files to look at:
 
-* [Form1.cs](./CS/WindowsFormsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsFormsApplication1/Form1.vb))
-<!-- default file list end -->
-# How to export a report to PDF format
+* [Form1.cs](https://github.com/DevExpress-Examples/Reporting_how-to-export-a-report-to-pdf-format-e44/blob/2020.2/CS/Form1.cs) ([Form1.vb](https://github.com/DevExpress-Examples/Reporting_how-to-export-a-report-to-pdf-format-e44/blob/2020.2/VB/Form1.vb))
 
+# Export a Report to The XLSX Format
 
-<p>This example illustrates how to export a report to PDF using the <a href="https://documentation.devexpress.com/#XtraReports/DevExpressXtraReportsUIXtraReport_ExportToPdftopic">XtraReport.ExportToPdf</a> method with specific <a href="https://documentation.devexpress.com/#CoreLibraries/clsDevExpressXtraPrintingPdfExportOptionstopic">PdfExportOptions</a> applied.<br><br>See also: <a href="https://www.devexpress.com/Support/Center/Example/Details/T234531">How to export a report to ZUGFeRD</a></p>
-
-<br/>
-
-
+The example in this repository demonstrates how to export a report to the PDF format. Refer to the following article for more information: [Export to PDF](https://docs.devexpress.com/XtraReports/2574).
