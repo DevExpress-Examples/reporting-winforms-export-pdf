@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # How to Export a Report to PDF and Specify Export Options
 
-This example uses the [XtraReport.ExportToPdf](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.ExportToPdf(System.String-DevExpress.XtraPrinting.PdfExportOptions)) method to export a report to PDF and allows you to specify multiple export options.
+This example uses the [XtraReport.ExportToPdf](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.ExportToPdf(System.String-DevExpress.XtraPrinting.PdfExportOptions)) method to export a report to PDF, and calls the [ExportOptionsTool.EditExportOptions](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.ExportOptionsTool.EditExportOptions(DevExpress.XtraPrinting.ExportOptionsBase-DevExpress.XtraPrinting.PrintingSystemBase)) method to invoke the dialog that allows the user to specify multiple export options.
  
 ![Report Export to PDF and Preview](Images/screenshot.png)
 
