@@ -1,7 +1,0 @@
-{
-	"GitHubRepoName": "reporting-winforms-export-pdf",
-	"AutoGenerateVb" : false,
-    "KeepOriginalDirStructure" : true,
-	"Topics" : ["reporting", "winforms", "export", "pdf"],
-	"Description": "Demonstrates how to export a report to PDF and specify multiple export options."
-}
